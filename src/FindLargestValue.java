@@ -30,7 +30,7 @@ public class FindLargestValue {
         for (int j = 0; j < array.length; j++) {
             if (array[j] > max) {
                 max = array[j];
-                index = j + 1;
+                index = j;
             }
         }
         System.out.println("The largest property value in the list is " + max + " ,at position " + index);
